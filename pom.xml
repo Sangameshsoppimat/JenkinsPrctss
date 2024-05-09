@@ -60,7 +60,15 @@
         <version>3.0.0-M5</version>
          <configuration>
            <suiteXmlFiles>testng.xml</suiteXmlFiles>
+           <systemPropertyVariables>
+			
+			<browser>${Browser}</browser>
+			</systemPropertyVariables>
+           
           </configuration>
+          
+          
+          
       </plugin>
     </plugins>
   </build>
