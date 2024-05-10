@@ -25,8 +25,6 @@ public class login
 			WebDriverManager.chromedriver().setup();
 			driver=new FirefoxDriver();
 		}
-		
-		
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		Thread.sleep(2000);
 	}
